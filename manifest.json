@@ -1,0 +1,21 @@
+{
+    "info": {
+        "name": "patrol_mod",
+        "version": 3
+    },
+    "default_locale" : "en",
+
+    "aliases": {
+
+        "furniture:patrol_point": "file(entities/patrol_point)"
+
+    },
+
+    "mixintos" : {
+        "stonehearth/jobs/carpenter/recipes/recipes.json" : "file(recipes/recipes.json)",
+        "stonehearth:containers:large_crate": "file(disable_entity_auto_patrol.json)",
+        "stonehearth:containers:large_urn": "file(disable_entity_auto_patrol.json)",
+        "stonehearth:stockpile": "file(disable_entity_auto_patrol.json)",
+        "stonehearth:farmer:field": "file(disable_entity_auto_patrol.json)"
+    }
+}
